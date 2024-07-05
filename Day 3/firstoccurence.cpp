@@ -22,9 +22,9 @@ int solve(vector<int> &arr, int size, int target)
         {
             end = mid - 1;
         }
-        mid = (start + end) / 2;
+        mid = (start + end) / 2;  
     }
-    
+
     return ans;
 }
 

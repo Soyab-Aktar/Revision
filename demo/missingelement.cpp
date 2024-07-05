@@ -13,7 +13,7 @@ int findmissing(int ar[], int N)
         // which is not index + 1, then 
         // missing element is mid+1
         if (ar[mid] != mid + 1 && 
-                        ar[mid - 1] == mid)
+                        ar[mid - 1] == mid) 
             return mid + 1;
  
         // if this is not the first missing 
